@@ -1,0 +1,44 @@
+cursos=[]
+
+for i in range(1,6):
+
+  lista=input('ingrese las materias que cursa: ')
+
+  cursos.append(lista)
+
+print(cursos)
+
+
+
+cursos=[]
+
+for i in range(0,5):
+
+  lista=input('ingrese las materias que cursa: ')
+
+  cursos.append(lista)
+for i in cursos:
+
+  print(f'yo estudio el curso de {i}')
+
+
+
+
+cursos=[]
+notas=[]
+
+for i in range(0,5):
+
+  lista=input('ingrese las materias que cursa: ')
+
+  nota=input('ingrese sus notas: ')
+
+  cursos.append(lista)
+
+  notas.append(nota)
+
+  print=()
+
+for i in range(0,5):
+
+  print(f'yo estudio {cursos[i]} y mi nota es {notas[i]} ')
